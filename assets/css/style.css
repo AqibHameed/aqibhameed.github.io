@@ -1496,3 +1496,15 @@ footer .credits a {
   color: white;
   font-size: 30px;
 }
+video{
+  width:100%;
+  height: auto;
+}
+@media screen and (max-width: 394px) {
+  video{
+    height: 350px;
+  }
+  .overlayText {
+    top: 10%;
+  }
+}
